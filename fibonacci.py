@@ -1,15 +1,16 @@
-num = int(input())
-
-
-n1,n2 = 0,1
-count = 0
-
-if num == 1:
-    print(n1)
-
-while count < num:
-    print(n1)
-    nth = n1 + n2
-    n1 = n2
-    n2 = nth
-    count += 1
+#fibonacci - 0 1 1 2 3 5 8.......
+n=6
+a = 0
+b = 1
+if n < 0: 
+    print("Incorrect input") 
+elif n == 0: 
+    print(a)
+elif n == 1: 
+    print(a) 
+else: 
+    for i in range(2,n): 
+        c = a + b 
+        a = b 
+        b = c 
+    print(b) 
