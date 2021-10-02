@@ -1,5 +1,5 @@
 #Initialize array     
-arr1 = [1, 2, 3, 4, 5];     
+arr1 = [1, 2, 3, 4, 5,6,7,8,9];     
      
 #Create another array arr2 with size of arr1    
 arr2 = [None] * len(arr1);    
